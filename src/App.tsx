@@ -1,5 +1,15 @@
+import Hero from "./sections/Hero";
+import Highlights from "./sections/Highlights";
+import Navbar from "./sections/Navbar";
+
 const App = () => {
-  return <h1> Hello world!</h1>;
+  return (
+    <main className="bg-black">
+      <Navbar />
+      <Hero />
+      <Highlights />
+    </main>
+  );
 };
 
 export default App;
