@@ -21,7 +21,7 @@
 - ESlint
 - Vite
 
-## Demo Links
+### Demo Links
 - [Demo](https://AndriiZakharenko.github.io/apple/)
 - [Original](https://www.apple.com/)
 
