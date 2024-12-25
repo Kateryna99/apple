@@ -11,7 +11,7 @@ import { useEffect } from "react";
 import { useGLTF, useTexture } from "@react-three/drei";
 // @ts-ignore
 import scene from '../../public/models/scene.glb'
-import {Color, MeshStandardMaterial, Texture} from "three";
+import {Color, MeshStandardMaterial} from "three";
 
 // @ts-ignore
 function Model(props:any) {
@@ -152,6 +152,7 @@ function Model(props:any) {
         material={materials.pIJKfZsazmcpEiU}
         scale={0.01}
       >
+          // @ts-ignore
           <meshStandardMaterial roughness={1} map={texture[0]}/>
       </mesh>
         <mesh

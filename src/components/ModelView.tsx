@@ -10,7 +10,7 @@ interface ModelViewProps {
   groupRef: React.RefObject<THREE.Group>;
   gsapType: string;
   // @ts-ignore
-  controlRef: React.RefObject<typeof OrbitControls>;
+  controlRef: React.RefObject<OrbitControls>;
   setRotationState: (rotation: number) => void;
   size: string;
   item: any;
@@ -41,6 +41,7 @@ const ModelView: React.FC<ModelViewProps> = ({
 
       <OrbitControls
         makeDefault
+          // @ts-ignore
         ref={controlRef}
         enableZoom={false}
         enablePan={false}
