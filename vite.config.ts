@@ -8,4 +8,8 @@ export default defineConfig({
       usePolling: true,
     },
   },
+  base: '/apple/',
+  build: {
+    outDir: 'dist',
+  },
 });
