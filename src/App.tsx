@@ -1,3 +1,4 @@
+import Features from "./sections/Features";
 import Hero from "./sections/Hero";
 import Highlights from "./sections/Highlights";
 import Model from "./sections/Model";
@@ -10,6 +11,7 @@ const App = () => {
       <Hero />
       <Highlights />
       <Model />
+      <Features/>
     </main>
   );
 };
