@@ -9,7 +9,7 @@ interface ModelViewProps {
   index: number;
   groupRef: React.RefObject<THREE.Group>;
   gsapType: string;
-  controlRef: React.RefObject<OrbitControls>;
+  controlRef: React.RefObject<typeof OrbitControls>;
   setRotationState: (rotation: number) => void;
   size: string;
   item: any;
