@@ -9,6 +9,7 @@ interface ModelViewProps {
   index: number;
   groupRef: React.RefObject<THREE.Group>;
   gsapType: string;
+  // @ts-ignore
   controlRef: React.RefObject<typeof OrbitControls>;
   setRotationState: (rotation: number) => void;
   size: string;
@@ -45,6 +46,7 @@ const ModelView: React.FC<ModelViewProps> = ({
         enablePan={false}
         rotateSpeed={0.4}
         target={new THREE.Vector3(0, 0, 0)}
+          // @ts-ignore
         onEnd={() => setRotationState(controlRef.current!.getAzimuthalAngle())}
       />
 

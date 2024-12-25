@@ -63,6 +63,7 @@ const Model = () => {
               index={1}
               groupRef={small}
               gsapType="view1"
+                // @ts-ignore
               controlRef={cameraControlSmall}
               setRotationState={setSmallRotation}
               item={model}
@@ -72,6 +73,7 @@ const Model = () => {
               index={2}
               groupRef={large}
               gsapType="view2"
+                // @ts-ignore
               controlRef={cameraControlLarge}
               setRotationState={setLargeRotation}
               item={model}
