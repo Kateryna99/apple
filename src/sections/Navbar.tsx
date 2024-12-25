@@ -1,4 +1,4 @@
-import { navLists } from "../constants/sections/navLists";
+import { navLists } from "../constants/blocks/navLists";
 import { appleImg, bagImg, searchImg } from "../utils";
 
 const Navbar = () => {
