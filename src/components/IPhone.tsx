@@ -37,112 +37,112 @@ function Model(props) {
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.ttmRoLdJipiIOmf.geometry}
+        geometry={(nodes.ttmRoLdJipiIOmf as THREE.Mesh).geometry}
         material={materials.hUlRcbieVuIiOXG}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.DjsDkGiopeiEJZK.geometry}
+        geometry={(nodes.DjsDkGiopeiEJZK as THREE.Mesh).geometry}
         material={materials.PaletteMaterial001}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.buRWvyqhBBgcJFo.geometry}
+        geometry={(nodes.buRWvyqhBBgcJFo as THREE.Mesh).geometry}
         material={materials.PaletteMaterial002}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.MrMmlCAsAxJpYqQ_0.geometry}
+        geometry={(nodes.MrMmlCAsAxJpYqQ_0 as THREE.Mesh).geometry}
         material={materials.dxCVrUCvYhjVxqy}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.wqbHSzWaUxBCwxY_0.geometry}
+        geometry={(nodes.wqbHSzWaUxBCwxY_0 as THREE.Mesh).geometry}
         material={materials.MHFGNLrDQbTNima}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.QvGDcbDApaGssma.geometry}
+        geometry={(nodes.QvGDcbDApaGssma as THREE.Mesh).geometry}
         material={materials.kUhjpatHUvkBwfM}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.vFwJFNASGvEHWhs.geometry}
+        geometry={(nodes.vFwJFNASGvEHWhs as THREE.Mesh).geometry}
         material={materials.RJoymvEsaIItifI}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.evAxFwhaQUwXuua.geometry}
+        geometry={(nodes.evAxFwhaQUwXuua as THREE.Mesh).geometry}
         material={materials.KSIxMqttXxxmOYl}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.USxQiqZgxHbRvqB.geometry}
+        geometry={(nodes.USxQiqZgxHbRvqB as THREE.Mesh).geometry}
         material={materials.mcPrzcBUcdqUybC}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.TvgBVmqNmSrFVfW.geometry}
+        geometry={(nodes.TvgBVmqNmSrFVfW as THREE.Mesh).geometry}
         material={materials.pIhYLPqiSQOZTjn}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.GuYJryuYunhpphO.geometry}
+        geometry={(nodes.GuYJryuYunhpphO as THREE.Mesh).geometry}
         material={materials.eShKpuMNVJTRrgg}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.pvdHknDTGDzVpwc.geometry}
+        geometry={(nodes.pvdHknDTGDzVpwc as THREE.Mesh).geometry}
         material={materials.xdyiJLYTYRfJffH}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.CfghdUoyzvwzIum.geometry}
+        geometry={(nodes.CfghdUoyzvwzIum as THREE.Mesh).geometry}
         material={materials.jpGaQNgTtEGkTfo}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.DjdhycfQYjKMDyn.geometry}
+        geometry={(nodes.DjdhycfQYjKMDyn as THREE.Mesh).geometry}
         material={materials.ujsvqBWRMnqdwPx}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.usFLmqcyrnltBUr.geometry}
+        geometry={(nodes.usFLmqcyrnltBUr as THREE.Mesh).geometry}
         material={materials.sxNzrmuTqVeaXdg}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.xXDHkMplTIDAXLN.geometry}
+        geometry={(nodes.xXDHkMplTIDAXLN as THREE.Mesh).geometry}
         material={materials.pIJKfZsazmcpEiU}
         scale={0.01}
       >
@@ -151,105 +151,105 @@ function Model(props) {
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.vELORlCJixqPHsZ.geometry}
+        geometry={(nodes.vELORlCJixqPHsZ as THREE.Mesh).geometry}
         material={materials.zFdeDaGNRwzccye}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.EbQGKrWAqhBHiMv.geometry}
+        geometry={(nodes.EbQGKrWAqhBHiMv as THREE.Mesh).geometry}
         material={materials.TBLSREBUyLMVtJa}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.EddVrWkqZTlvmci.geometry}
+        geometry={(nodes.EddVrWkqZTlvmci as THREE.Mesh).geometry}
         material={materials.xNrofRCqOXXHVZt}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.KSWlaxBcnPDpFCs.geometry}
+        geometry={(nodes.KSWlaxBcnPDpFCs as THREE.Mesh).geometry}
         material={materials.yQQySPTfbEJufve}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.TakBsdEjEytCAMK.geometry}
+        geometry={(nodes.TakBsdEjEytCAMK as THREE.Mesh).geometry}
         material={materials.PaletteMaterial003}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.IykfmVvLplTsTEW.geometry}
+        geometry={(nodes.IykfmVvLplTsTEW as THREE.Mesh).geometry}
         material={materials.PaletteMaterial004}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.wLfSXtbwRlBrwof.geometry}
+        geometry={(nodes.wLfSXtbwRlBrwof as THREE.Mesh).geometry}
         material={materials.oZRkkORNzkufnGD}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.WJwwVjsahIXbJpU.geometry}
+        geometry={(nodes.WJwwVjsahIXbJpU as THREE.Mesh).geometry}
         material={materials.yhcAXNGcJWCqtIS}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.YfrJNXgMvGOAfzz.geometry}
+        geometry={(nodes.YfrJNXgMvGOAfzz as THREE.Mesh).geometry}
         material={materials.bCgzXjHOanGdTFV}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.DCLCbjzqejuvsqH.geometry}
+        geometry={(nodes.DCLCbjzqejuvsqH as THREE.Mesh).geometry}
         material={materials.vhaEJjZoqGtyLdo}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.CdalkzDVnwgdEhS.geometry}
+        geometry={(nodes.CdalkzDVnwgdEhS as THREE.Mesh).geometry}
         material={materials.jlzuBkUzuJqgiAK}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.NtjcIgolNGgYlCg.geometry}
+        geometry={(nodes.NtjcIgolNGgYlCg as THREE.Mesh).geometry}
         material={materials.PpwUTnTFZJXxCoE}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.pXBNoLiaMwsDHRF.geometry}
+        geometry={(nodes.pXBNoLiaMwsDHRF as THREE.Mesh).geometry}
         material={materials.yiDkEwDSyEhavuP}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.IkoiNqATMVoZFKD.geometry}
+        geometry={(nodes.IkoiNqATMVoZFKD as THREE.Mesh).geometry}
         material={materials.hiVunnLeAHkwGEo}
         scale={0.01}
       />
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.rqgRAGHOwnuBypi.geometry}
+        geometry={(nodes.rqgRAGHOwnuBypi as THREE.Mesh).geometry}
         material={materials.HGhEhpqSBZRnjHC}
         scale={0.01}
       />
