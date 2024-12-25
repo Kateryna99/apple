@@ -10,6 +10,7 @@ import * as THREE from 'three';
 import { useEffect } from "react";
 import { useGLTF, useTexture } from "@react-three/drei";
 import scene from '../../public/models/scene.glb'
+import {Color, MeshStandardMaterial, Texture} from "three";
 
 function Model(props) {
   const { nodes, materials } = useGLTF(`${scene}`);
@@ -17,19 +18,22 @@ function Model(props) {
   const texture = useTexture(props.item.img);
 
     useEffect(() => {
-      Object.entries(materials).map((material) => {
-        // these are the material names that can't be changed color
-        if (
-          material[0] !== "zFdeDaGNRwzccye" &&
-          material[0] !== "ujsvqBWRMnqdwPx" &&
-          material[0] !== "hUlRcbieVuIiOXG" &&
-          material[0] !== "jlzuBkUzuJqgiAK" &&
-          material[0] !== "xNrofRCqOXXHVZt"
-        ) {
-          material[1].color = new THREE.Color(props.item.color[0]);
-        }
-        material[1].needsUpdate = true;
-      });
+        Object.entries(materials).map(([materialName, material]) => {
+            // Ці матеріали не можна змінювати за кольором
+            if (
+                materialName !== "zFdeDaGNRwzccye" &&
+                materialName !== "ujsvqBWRMnqdwPx" &&
+                materialName !== "hUlRcbieVuIiOXG" &&
+                materialName !== "jlzuBkUzuJqgiAK" &&
+                materialName !== "xNrofRCqOXXHVZt"
+            ) {
+                // Перевірка, чи є матеріал екземпляром MeshStandardMaterial
+                if (material instanceof MeshStandardMaterial) {
+                    material.color = new Color(props.item.color[0]);  // Встановлення кольору
+                    material.needsUpdate = true;  // Оновлення матеріалу
+                }
+            }
+        });
     }, [materials, props.item]);
   
   return (
@@ -146,11 +150,11 @@ function Model(props) {
         material={materials.pIJKfZsazmcpEiU}
         scale={0.01}
       >
-        <meshStandardMaterial roughness={1} map={texture} />
+          <meshStandardMaterial roughness={1} map={texture[0] as Texture}/>
       </mesh>
-      <mesh
-        castShadow
-        receiveShadow
+        <mesh
+            castShadow
+            receiveShadow
         geometry={(nodes.vELORlCJixqPHsZ as THREE.Mesh).geometry}
         material={materials.zFdeDaGNRwzccye}
         scale={0.01}
