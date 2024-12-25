@@ -152,13 +152,12 @@ function Model(props:any) {
         material={materials.pIJKfZsazmcpEiU}
         scale={0.01}
       >
-          // @ts-ignore
-          <meshStandardMaterial roughness={1} map={texture[0]}/>
+          <meshStandardMaterial roughness={1} map={Array.isArray(texture) ? texture[0] : null}/>
       </mesh>
         <mesh
             castShadow
             receiveShadow
-        geometry={(nodes.vELORlCJixqPHsZ as THREE.Mesh).geometry}
+            geometry={(nodes.vELORlCJixqPHsZ as THREE.Mesh).geometry}
         material={materials.zFdeDaGNRwzccye}
         scale={0.01}
       />
