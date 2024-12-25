@@ -9,7 +9,7 @@ export default defineConfig({
       usePolling: true,
     },
   },
-  /*base: '/apple/',*/
+  base: '/apple/',
   build: {
     outDir: 'dist',
   },
